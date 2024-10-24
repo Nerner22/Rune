@@ -1,0 +1,7 @@
+TRANSFERRING PROGRESS TO NEW VERSION:
+1. Go into ur old server's data folder.
+2. Copy these into new server's data folder: characters + minutes.txt
+(2.1. Optional stuff to copy over: backups + dead hcim characters + geOfferData.dat + messageOfTheWeek.dat + partyChest.dat)
+3. Check the new server and client config files and compare to old ones.
+- If theres no new configs available u can just copy over ur old ones, otherwise its recommended to either manually edit the new config files or copying the new configs to ur old config files before copying the files over.
+4. Now you have properly moved ur progress to the new patch version.

@@ -1,0 +1,396 @@
+V4.4 Patch notes:
+- Fixed range accuracy (there was a small mistake in the formula which greatly affected it)
+- Fix to range pkbots able to generate with p2p items on f2p world on old builds
+- New config: MOD_2HS (a while ago some1 requested stat modding, due to you having less defence while wearing 2h, it would be fair if you dealt more dmg (dps-wise), so its now possible to try and adjust the 2h bonuses)
+
+V4.3 Patch notes:
+- Fix to npcs becoming non-agressive 1 lvl too early
+- Fixed crossbows on older builds
+- Changed config: WILDY_BOTS, so you have the option to control the combatlvl of generated bots
+- Some bot fixes
+- Some anim fixes on older builds
+- Some1 point out that headicons (prays/skulls) got ordered differently before smite got added, so this should now be working correctly
+- Some other minor changes
+Website:
+- Fix to show correct lesser demon (instead of quest one)
+
+V4.2 Patch notes:
+- Fixed quest reward interface not showing on older builds
+- Fix to pirates treasure on older builds
+- Fix to smelting on older builds
+- Fix to cooking on older builds
+- Fixes to some npc spawns on older builds
+- Fix to swarm random event
+- Fix to tanning on older builds
+- Fix to leather crafting on older builds
+- Reverted cycling change in mining/wc which was added in 2.8.1 to improve sound effects (wasnt needed anymore anyway as the sounds got better update in 3.7), which I noticed sometimes to mess up the cycles and u receive item every tick.
+- Some anim fixes on older builds
+- Correction to sheep shearing
+- Corrected some item ids from npc drops
+Website:
+- Fix to personal hiscores showing overall rank incorrectly
+- Fix to beastiary not showing some combat level options for mobs
+- Fix to beastiary not showing some mobs
+- Updated drop db (to apply the item id fixes in database too)
+
+V4.1 Patch notes:
+- Another fix to items kept/dropped on death
+- Corrections to smelting processing & ticks
+- Possible lvlups on quest complete should now showup after closing the quest complete interface
+- New working gamebuild: 349 (+website DB update + gamebuild tool update)
+- New config: SHOW_SKILL_UNLOCKS (Note: these are auto-generated from skillguides (so not perfect), and only tested a little so probably needs bit more work, so thats why its currently a config)
+- New config: BOT_XP_RATE
+
+V4.0 Patch notes:
+- Askeladden can now give you new pet rocks after fremennik trials
+- Pet rocks can now be used to open the doors at waterbirth island
+- Rune thrownaxe special (not perfect, but better than nothing I guess)
+- Increased spinolyp spawns to match with osrs wiki
+- Increased spinolyp aggro distance, should be closer to real rs now
+- Fixes to special item handling (items with timers or degrading)
+- Fix to dropping degraded barrows items
+- Fix to items kept/dropped on death
+- Fix bug with jad causing it not able to hit with range/mage
+- Fixed issue with some interfaces not closing caused by last update
+- Rewritten smithing (though as a player you shouldnt really notice anything, but for me its now actually readable)
+
+V3.9.1 Patch notes:
+- Improved 245 support
+
+V3.9 Patch notes:
+- Fix to blurite rock on older versions
+- Fix to runecrafting on older versions
+- Gems while mining & Gem rocks should now be authentic
+- Tweaks to big net fishing
+- Support for pre-254 caches (not 100% sure if needs more work, but seems to work + might need fine tuning if more revisions get found)
+- New working gamebuild: 245
+- Updated website databases (as theres been few new caches found since last DB update, so it can show the revisions for content a bit more accurately now)
+
+V3.8 Patch notes:
+- Small patches to vampire slayer & shield of arrav on old builds
+- Lots of corrections to clue steps to match with osrs wiki (recommended to complete ur current clues before updating)
+- Fixes to wolfman/-woman
+- Slight tweaks to misc item rewards in barrows
+- Progressive bots should now be able to use their pure ess for runecrafting
+- Other small tweaks
+- New working gamebuild: 318
+- New modded cache: 270
+- Lots of changes/fixes made to the webpages
+
+V3.7 Patch notes:
+- Fix to gnome gliders
+- Fix client crash if max stack is dropped
+- Lots of fixes to max stack handling
+- Corrections to Wizard & Fire Wizard
+- Tool leprechaun will no longer have 1 of every item for new accounts
+- Arrows now allowed at Entrana
+- Chaos druid now also has a spell attack
+- Mining & Wc sounds are now tied to actual anim frames, similar to how its done on newer engine clients
+- Hiscore support + other extra stuff (thx to Grimfeather for webpage creation)
+- New config: MYSQL_HISCORES
+^Keep in mind hiscores save on logout (so there will only be characters that have logged off when hiscores are enabled)
+- New working gamebuild: 333
+- New modded caches: 306, 347
+
+V3.6 Patch notes:
+- Npcs will no longer walk through players
+- In some situations hit effects got applied before the actual hit happened (should work correctly now)
+- Some tweaking to KQs attacks
+- More authentic icy breath & dragon fire
+- Changed when protection prayers are checked, now its checked on hit for jad and on attack start for everything else (which I guess is more like in real rs?)
+- Quite a bit of changes to banking code (mostly related to special items, like barrows equipment)
+- Changed config: ITEM_DROP_RATES, you can now set a drop rate cap, for example setting max rarity to 1/512
+- Temporary fix to DK doors so ppl dont keep bugging me about them
+- Fix chopping vines with full inventory
+- Add firework sound effect to lvlups
+
+V3.5.2 Patch notes:
+- Fix to witch potion on older builds
+- Some item fixes
+
+V3.5.1 Patch notes:
+- Removed some osrs changes from skill guides
+- Some item fixes
+- Included new modded cache: Build #346
+^Might have some more minor stuff, dont remember anymore
+
+V3.5 Patch notes:
+- Fix hp lvling on tut isle
+- Fix to dairy churn
+- Fixes to some items
+- Fix to farmed trees run out of logs chance
+- Other minor changes
+- New server config: SKIP_REQS_FOR_MISSING_QUESTS (pretty much just an alternative option to COMPLETE_MISSING_QUESTS)
+- Included new modded cache: Build #350
+
+V3.4.1 Patch notes:
+- Change to a fix added in 3.4 (to fix issue with dialog options), hopefully this doesnt lead into issues on some other dialogues.
+- Kharyll teleport now requires completion of priest in peril
+- Enabled Ape atoll teleport to work after monkey madness
+
+V3.4 Patch notes:
+- Reset scrollbar to top when viewing skillguides
+- Corrections to some npcs poison damage
+- Corrected poison chance rate melee/range/mage (for players attacks)
+- Corrected success rate and duration of slashed webs
+- Small change to ship travels
+- Lots of changes to lumbridge swamp cave & related stuff
+- Rewritten essence pouch code + lots of changes to related stuff
+- Changed gnome pilots to their old variants (as they got actually changed to the new ones in August 2006) + this also fixes them for old builds
+- Fixed entrana monk for old builds
+- Lots of crafting fixes on old builds
+
+V3.3 Patch notes:
+- Fix dragon slayer ship ladder on old builds
+- Small change to spirit tree dialog on old builds
+- Lots of changes to skill guides
+- Fixes to item requirements
+- New server config: COMPLETE_MISSING_QUESTS (didnt test, but I think it should work)
+- Other minor changes
+
+V3.2 Patch notes:
+- Fixed barrows chest on old builds
+- Fixed issue with mithril seeds
+- Authentic skill & special refresh timers for players & npcs (I think), earlier they basically worked like they should, but now the small details should work just like in real game
+- Corrections to some potions & other drinks
+
+V3.1 Patch notes:
+- Farming fixes to bugged patches (Pls note if u have bugged patches u will need to clear all ur patches, since for example allotment patches are linked together, so if 1 of them is bugged it can also mess up the others)
+^As I did quite a bit of cleanup to farming code on 3.0 to make it more readable it was much easier now to see whats happening and why.
+^I did quite a bit of testing on allotments, herbs, flowers and hops and couldnt anymore cause a bugged patch, other patches received the same fixes too, but they work bit differently so those might still have some issues.
+^Did not test flower/farmer protection so not sure if those work properly or if its bugged
+- KBDs attacks have their effects
+- Some item fixes
+- Few minor bot fixes
+- Other minor fixes
+
+V3.0 Patch notes:
+- New config: RELOG_FROZEN_BOTS
+- Few minor bot fixes
+- Lava maze dungeon accessible
+- Bank PIN only on versions it is supported on
+- Disabled random events in tutorial island
+- Minor item&npc spawn fixes
+- P2P items no longer provide bonuses while worn in F2P world
+- Updated farming harvesting logic to match with osrs wiki for: allotments, hops & herbs
+
+V2.9 Patch notes:
+- Fixed up issue with obtaining slayer task
+- Stat reducing spells should now work correctly (+also properly applies the effect to npcs too)
+- Added Diangos toy shop
+
+V2.8.1 Patch notes:
+- Possibly better sound effects for wc/mining
+- Its now possible for pottery to crack when putting them into oven like in real game.
+
+V2.8 Patch notes:
+- Lots of fixes to bot code (mainly progressive bots, but can also affect other bots in situations where same code is shared for the logic)
+
+V2.7.1 Patch notes:
+- Fix out of prayer spam
+- Fix extra prayer points from monastery decreasing overtime
+- Corrected few item spawns
+
+V2.7 Patch notes:
+- Authentic run energy drain & restore
+- Authentic prayer drain
+- Authentic success rate for pickpocket
+- Authentic fight cave wave spawn order
+- Reworked firemaking a bit to be able to use authentic success rates + changed fire duration to authentic
+- Other small fixes & changes
+
+V2.6 Patch notes:
+- Authentic shops
+- Authentic slayer tasks
+- Minor item spawn fixes
+- Tanning on lower builds
+- Small changes to npc movement based on some resources I found (should be close to authentic atleast based on that)
+- New frozen bot detection, IF it detects a possible problem it will try to help the bot after a minute, if that doesnt help it will reset it after another minute.
+- Other minor fixes
+
+V2.5 Patch notes:
+- Tweaked crystal chest rates to be authentic
+- Some fixes to #254 build
+- Some fixes to other than normal antipoisons
+- Changed config: HOLIDAY_ITEM_DROPS, so its actually possible to fully disable holiday events if u want to
+- Authentic item spawns (according to osrs wiki, could still have minor mistakes) [Credits to Rojeh for dumping the data]
+- Authentic formulas & data for: woodcutting, mining, fishing, cooking (based on osrs wiki, you can leave feedback if it feels right or not)
+^Could possibly have something more, dont remember anymore
+
+V2.4 Patch notes:
+- Reworked clue rewards to be authentic
+- Removed config: CLUE_REWARD_RATE (ITEM_DROP_RATES config will now also affect this)
+
+V2.3.1 Patch notes:
+- Some crashing fixes on old builds
+
+V2.3 Patch notes:
+- Jarvald will no longer charge you to go to waterbirth after fremennik trials
+- Minor fix to DK ladder
+- Minor crafting fixes
+- Fixed small design flaw that affected few fishing tasks causing the bot to not work right
+- Fixed a coding mistake with pkbots that made them able to reset and regenerate as new pkbot mid escape
+- Changes to bot-npc interaction code
+- Other players will now get a message if you cheat (+ also gets printed in the server window)
+- New config: SHOP_RESTOCK_TIME_MULTIPLIER
+
+V2.2 Patch notes:
+- Fight Caves will now correctly reward you with tokkul even if you dont fully beat it.
+- Fixed a bug with trade bots
+- Changed dharoks effect to affect every hit (which I guess is right based on wiki) instead of 25% chance like all other barrows effects
+- Quest system will now check if the quest actually exists in the current version before handling any of the quest logic. (for example previously it was atleast possible to start monkey madness when it didnt exist on the version being played)
+- Added some more p2p content checks to crafting
+- More improvements to fixes added in 2.0/2.1 (Hopefully theres no longer issues that didn't exist pre 2.0)
+
+V2.1 Patch notes: (Even though patch notes may seem small, this was definitely one of the largest updates I have done to this project)
+- Rewrote combat formulas & changed npc stats (for pretty much every npc) to match osrs wiki. Feel free to report issues, but atleast based on my small testing seems to be working. (Previously npcs didnt have that much to do with their real rs counterparts)
+If any1 is wondering why they were so incorrect before its because the amount of data & info how everything works was very different ~10 years ago when I started the project compared to whats available now, so back then just had to come up with something that does the job.
+- Few minor fixes to crafting
+- More optimisation on fixes added on 2.0
+
+V2.0 Patch notes:
+- Fixed wizard tower and seers bank for bots on older builds
+- Corrected some barrows mechanics (I think should now be close to authentic)
+- More fixes to bots being generated with gear that doesnt exist on lower versions
+- Apparently I had somehow managed to broke setting private chat mode at some point, fixed now
+- Removed shake txt effect on #254 build as it didnt exist on it. (+ also for some reason it caused txt to mess up)
+- Member items will now show up correctly as "Members Object" while in f2p world
+- Npc movement processing update by Gallus
+- New server config: RECOLOR_MISSING_QUESTS
+
+- New cheats:
+- rchar (randomize character look)
+- lquest part of quest name (for example: lquest hero, to get quest ids for specific quests)
+- cquest ID (for example: cquest 50, to complete specific quest)
+- rquest ID (for example: rquest 50, to reset specific quest)
+^NOTE: if u reset quest its best to also get rid of any quest items u have for that quest (you will have to do that manually)
+
+V1.9 Patch notes:
+- Support for pre #274 caches, currently have: #254. (if cache between #254-#274 is found, it might need little tweaking before it works, as currently can't know accurately in which build they made the changes in)
+- New working caches found: 298 & 339
+- New modded caches: 254, 330 & 367
+- As the old builds seems to now be working without issues (un-modded ones), removed beta tag, and changed 289 to default build
+- Cheats to switch spellbook: "modern" and "ancient"
+- Some other small fixes here and there based on reported stuff
+- Some slight changes to how the server is running, provided by Gallus. (Report if the performance is better or worse)
+
+V1.8.3 Patch notes:
+- Botting fixes on lower builds
+
+V1.8.2 Patch notes:
+- Some small fixes
+
+Temporary "fix" for dagannoth doors: (couldn't think of a simple way to fix it, so as a temporary workaround you can switch between the old and new movement systems)
+- New config: MOVEMENT_SYSTEM (the default movement system you will be set on each login)
+- New command ::ms (changes ur movement system)
+
+V1.8.1 Patch notes:
+- Minor fixes
+- Some improvements to botting code
+- New cheat: rquests -> resets quests
+- New config: BOT_LOGIN (mainly useful if u have lower end cpu, which usually leads to bunch of bots stuck at lumby castle)
+
+- Build date tool, input the build number that should launch when ur using the tool, and it will generate you the dates when the next builds should launch (if u wanted to progress with same speed as the real game did)
+
+V1.8 Patch notes:
+- Updated drop system (+drops thx to: Oyusveyus)
+- ROW logic changed to work like in the real game
+- updated config: ITEM_DROP_RATES (as the old one wouldnt work with the new system)
+- Spinolyps can now be attacked with melee
+- ::bot cheat (BETA) basically makes the account bot like a progressive bot would, to stop botting you need to logout, to continue from last time just use the command again (Note: if u logout while the bot is not active, no botting data is getting saved, so it will reset u to lumb the next time u use it)
+^Also note the bot cheat will use the quest cheat too.
+
+V1.7.4 Patch notes:
+- Crashing fix for older builds (Earlier #289 crashed easily during combat)
+- Some anim fixes for older builds
+- Found 1 new gamebuild that seem to work: #372
+- Some patches to make modded caches work with less issues
+- Modded* caches: 274, 308, 317, 327, 332, 337, 368 (these are included in a separate folder and you will need to copy these into clients & servers cache folder if you want to use these)
+* = These caches were missing some files that made them not work with this, now these have been "fixed" by taking some files from some other cache that works. Each of the these caches now also have a log that shows: what was originally missing, what got added and from which cache, and whats missing from the modded cache. Each of these caches are still like 97+% authentic, so shouldnt probably be too noticeable.
+
+V1.7.3 Patch notes:
+- Clickable links for patch notes for different gamebuilds
+- Found 2 new gamebuilds that seem to work: #321 & #340
+
+V1.7.2 Patch notes:
+- Fixed Reldo for questing on old builds
+
+V1.7.1 Patch notes:
+- Minor item & npc changes
+
+V1.7 Patch notes:
+- More Zanaris fixes on old builds + The area is now also working with the #289 build.
+- Ported fix to gmaul spec from my other project. (didnt test, should work)
+- Fixed issue which caused only progressive bots to answer when asking for lvls
+- Added rock crabs north of Rellekka
+- New server & client config: LAN
+
+V1.6 Patch notes:
+- Added fairy bankers to zanaris
+- Added door man to zanaris marketplace area for old cache versions
+- You can ask bots for their lvls when they are skilling
+- You can now spam to buy & sell items and the bots will trade you (u can put the price info, but the bots will ignore ur prices)
+
+V1.5 Patch notes:
+- Patched KBD on #289
+- Patched Mage Arena objects on lower builds
+- Patched Npcs aggroing through walls
+- Added Brother Jered
+- Fixed anim related crash
+- Adjusted anims for 2h's and spears on lower builds (likely wrong anims, but I guess better than no anims at all)
+- Bots (NOTE: lots of door, gate, ladder etc. ids might have changed on lower builds, so bots might get stuck easier on lower builds, I did patch quite a bit of these but possibly not all)
+- Rewritten bot login system
+- New bot configs:
+BOT_ESCAPE_HIGH_LVLS (not tested)
+FORCE_RESET_BOTS
+- Old configs re-enabled:
+HOTZONES_FOR_WILDYBOTS
+REMOVED_BOT_NAMES
+TRADE_BOT_COMMON_ITEM_CHANCE
+WILDY_BOTS
+SKILLING_BOTS
+PROGRESSIVE_BOTS
+TRADE_BOTS
+OTHER_BOTS
+CLANWAR_BOTS
+DROP_PARTY_CHANCE
+SCAMMER_CHANCE
+WALKING_BOTS
+
+V1.4 Patch notes:
+- Hans can be configured to sell membership (didnt test, should work)
+- Fixed issue with dying while thieving
+- Fixed few issues with woodcutting on lower builds
+- Cheats: (thought the required client edits would be fine as you won't notice them during normal gameplay and only makes the use of cheats more userfriendly)
+- ctrl+shift teleporting enabled to make the teleport cheat easier to use
+- #377 style item search menu for item spawning
+- ::lvls command that adds right click menu to skills to set the lvls
+- New configs: (didnt actually test, but should work)
+DISEASING
+BARROWS_REWARD_RATE
+CLUE_REWARD_RATE
+NO_RANDOMS
+- Old configs re-enabled:
+IDLE_LOGOUT
+WC_STYLE_MINING
+
+V1.3 Patch notes:
+- Cooking fix on earlier builds
+- Firemaking fix on earlier builds
+- Fix to earlier crashing fix added on 1.1 (at some point the code had somehow moved a few lines from the spot I originally put it into)
+- Filtering clues & rewards
+- Movement related fix (Credits: Gallus)
+- Bots should be mostly prepared for lower builds (still disabled though)
+- New skillguide system (As a player you shouldnt really see a difference except for example the empty tabs for barrows and white items will be gone on lower builds, the way they were originally done wasnt really practical for a server like this where they need adjusting depending on whats available. Was a huge amount of work to recreate all the menus using the new system)
+- New cheat "char"
+- ^Dont remember if theres more as the skillmenus was lots of work
+
+V1.2 Patch notes:
+- Filtering out items that dont exist from npc drops for the selected version
+- Cleaned skillguides from most of the stuff that doesnt exist for the selected version
+- Fixed draynor manor basement maze also on the later versions
+- And some other minor tweaks
+
+V1.1 Patch notes:
+- Fixed lots of crashing & other issues on earlier revisions
+- Fixed draynor manor basement maze on some of the earlier revisions

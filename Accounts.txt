@@ -1,0 +1,40 @@
+Accounts:
+
+Mailhot
+    MailhotM - Mela armor and weapon 50 everything
+    MailhotR - Range armor and weapon 50 everything
+    MailhotW - Wizard armor and staff 50 everything
+    DaddyMailhot - Meme items starter stats
+
+Mitchell
+    MitchellM - Mela armor and weapon 50 everything
+    MitchellR - Range armor and weapon 50 everything
+    MitchellW - Wizard armor and staff 50 everything
+    Bitchell - Meme items starter stats
+
+Noah
+    NoahM - Mela armor and weapon 50 everything
+    NoahR - Range armor and weapon 50 everything
+    NoahW - Wizard armor and staff 50 everything
+    BT - Meme items starter stats
+
+Johnson
+    JohnsonM - Mela armor and weapon 50 everything
+    JohnsonR - Range armor and weapon 50 everything
+    JohnsonW - Wizard armor and staff 50 everything
+    Pappi - Meme items starter stats
+
+Carrano
+    CarranoM - Mela armor and weapon 50 everything
+    CarranoR - Range armor and weapon 50 everything
+    CarranoW - Wizard armor and staff 50 everything
+    Trashman123 - Meme items starter stats
+
+Matt
+    
+
+Adam (Steeves brother in law)
+    
+
+Eric
+    

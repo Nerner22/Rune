@@ -1,0 +1,67 @@
+Original:
+Missing model: 300
+Missing model: 461
+Missing model: 463
+Missing model: 4985
+Missing model: 5021
+Missing model: 9434
+Missing model: 9867
+Missing model: 9873
+Missing model: 12400
+Missing model: 13223
+Missing model: 13702
+Missing model: 13703
+Missing model: 13705
+Missing model: 14107
+Missing midi: 401
+Missing midi: 415
+Missing midi: 438
+Missing midi: 480
+Missing midi: 496
+Missing midi: 538
+Missing midi: 586
+Missing midi: 606
+Missing midi: 615
+Missing midi: 616
+Missing midi: 618
+Missing midi: 619
+Missing map: 1084
+Missing map: 1085
+Missing map: 1164
+Total missing: 29
+
+Taken from #369:
+Added model: 9434
+Added model: 12400
+Added model: 13223
+Added map: 1084
+Added map: 1085
+Added map: 1164
+Total added: 6
+Updated version list - size was (87378) and now is (87324)
+
+Modded:
+Missing model: 300
+Missing model: 461
+Missing model: 463
+Missing model: 4985
+Missing model: 5021
+Missing model: 9867
+Missing model: 9873
+Missing model: 13702
+Missing model: 13703
+Missing model: 13705
+Missing model: 14107
+Missing midi: 401
+Missing midi: 415
+Missing midi: 438
+Missing midi: 480
+Missing midi: 496
+Missing midi: 538
+Missing midi: 586
+Missing midi: 606
+Missing midi: 615
+Missing midi: 616
+Missing midi: 618
+Missing midi: 619
+Total missing: 23
